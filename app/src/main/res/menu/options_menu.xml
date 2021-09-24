@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnu_favorite"
+        android:icon="@drawable/star"
+        android:title="Favorite"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/mnu_help"
+        android:icon="@drawable/arrows"
+        android:title="Help" />
+    <item
+        android:id="@+id/mnu_settings"
+        android:icon="@drawable/cogwheel"
+        android:title="Settings" />
+</menu>
